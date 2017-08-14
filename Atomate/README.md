@@ -136,8 +136,20 @@ Materials Project and are fine with the default XC-functional in the POTCAR, jus
 >PMG_MAPI_KEY: <<YOUR_API_KEY>>  
 >DEFAULT_FUNCTIONAL: <<XC_FUNCTIONAL>>
 
-
-
+# Run a test workflow
+To test if everything has come together, you can run the following on the command line with your environment activated: 
+`atwf add -l vasp -p wf_bandstructure -m mp-149`
+(This test requires your Materials Project API key to be specified)
+If it looks like it worked, check with `lpad get_wflows`  
+It should return
+>[  
+>    {  
+>        "state": "READY",  
+>        "name": "Si--1",  
+>        "created_on": "2015-12-30T18:00:00.000000",  
+>        "states_list": "REA"  
+>    },  
+>]
 
 
 
