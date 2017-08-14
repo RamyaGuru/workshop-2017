@@ -149,10 +149,12 @@ It should return
 >        "created_on": "2015-12-30T18:00:00.000000",  
 >        "states_list": "REA"  
 >    },  
->]
-
-
-
+>]  
+Then, navigate to where you want to run the calculations and run `qlaunch -r rapidfire`  
+When the job finishes, you can run  
+`mgdb query -c <<INSTALL_DIR>>/config/db.json --props task_id formula_pretty output.energy_per_atom`  
+to see if it finished correctly.  <<INSTALL_DIR>> can be relative here.  
+For debugging, you should look at the official documentation or post in the [Google group](https://groups.google.com/forum/#!forum/atomate)
 
 
 
