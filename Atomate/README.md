@@ -3,7 +3,7 @@ This documentation is meant as a supplemental to the [official install documenta
 
 # Prerequisites
 1. Computing cluster that will let you run VASP
-2. Working local Python 3.6 Anaconda install on that computer
+2. Working Python 3.6 Anaconda install on that computer
 3. Two MongoDB deployments running on [mLab](https://mlab.com) with one having only 
    an admin user and one with both an admin user and a read only user.  
    *Note*: passwords will be stored in plain text, so make sure only you can view the directory they are installed to.
