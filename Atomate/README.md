@@ -129,7 +129,7 @@ Now, you just need to add the following to your .bashrc with appropriate substit
 And run `lpad reset` to see if you can connect to the FireWorks server.
 
 # Configure pymatgen
-Only the first flag here is necessary for VASP. The second is for if you want to use Materials Project resources, 
+Create a file in your home directory named `.pmgrc.yaml`. Only the first flag here is necessary for VASP. The second is for if you want to use Materials Project resources, 
 while the functional argument can be set to PS for PBEsol or other VASP supported functionals. If you don't need to query 
 Materials Project and are fine with the default XC-functional in the POTCAR, just delete the lines.
 >PMG_VASP_PSP_DIR: <<INSTALL_DIR>>/pps  
