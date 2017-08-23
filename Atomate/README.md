@@ -150,6 +150,7 @@ It should return
 >        "states_list": "REA"  
 >    },  
 >]  
+
 Then, navigate to where you want to run the calculations and run `qlaunch -r rapidfire`  
 When the job finishes, you can run  
 `mgdb query -c <<INSTALL_DIR>>/config/db.json --props task_id formula_pretty output.energy_per_atom`  
