@@ -49,7 +49,7 @@ Python will now default to only using and installing modules specific to this en
 `git clone https://www.github.com/hackingmaterials/atomate.git`  
 ***
 Next, install the packages **in the order shown above** by going into each directory and 
-running `pip install -e .` or `python setup.py develop` if pip fails.  
+running `pip install -e .` or `python setup.py develop` if pip fails. One exception may be the diffusion package, which atomate will install as part of its setup.
 
 # Configuring FireWorks
 Create the following in your config folder. Anything with <\<VARIABLE>> should be replaced with the actual variable.  
